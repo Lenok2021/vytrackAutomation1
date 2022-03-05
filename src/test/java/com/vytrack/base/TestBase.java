@@ -5,7 +5,7 @@ import com.vytrack.Utilities.Driver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class TestBase {
+public abstract class TestBase {
 
     @BeforeMethod
     public void setUp() {
